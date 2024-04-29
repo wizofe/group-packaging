@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calculator-ioannis"
+description = "Calculator example for packaging tutorial."
+version = "0.2.0"
+readme = "README.md"
+authors = [
+    { name = "Ioannis Valasakis", email = "ioannis.valasakis@kcl.ac.uk" }
+]
+dependencies = [
+    "scipy",
+]
